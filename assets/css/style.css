@@ -179,18 +179,38 @@ body {
         margin-bottom: 100px;
     }
     
-    section.panel.content img.portfolio-image {
+    section.panel.content figure {
         width: 250px;
         max-width: 250px;
         height: 200px;
         float: left;
-        display: inline;
         margin-right: 100px;
         margin-bottom: 20px;
         border: 1px solid rgb(200, 200, 200);
     }
 
-    section.panel.content img.portfolio-image:nth-of-type(2n + 0) {
+    section.panel.content figcaption {
+        position: relative;
+        top: 150px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #4AAAAC;
+        padding: 10px;
+        color: #fff;
+        box-shadow: 0px 5px 3px rgba(0,0,0,0.9);
+    }
+
+    section.panel.content img {
+        box-shadow: 0px 5px 3px rgba(0,0,0,0.9);
+    }
+
+    section.panel.content figure img {
+        display: inline;
+        width: 100%;
+        height: 100%;
+    }
+
+    section.panel.content figure:nth-of-type(2n + 0) {
         margin-right: 0;
     }
 

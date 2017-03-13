@@ -5,160 +5,7 @@
     <meta charset="utf-8">
     <title>Corey's Portfolio</title>
     <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
-    <style>
-    body {
-        background-image: url("./assets/images/concrete_seamless.png");
-        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    }
-    
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: 'Georgia', Times, Times New Roman, serif;
-    }
-    
-    h1 {
-        font-size: 24px;
-    }
-    
-    p,
-    ul li {
-        color: #777;
-    }
-    
-    div#body-wrapper {
-        width: 100%;
-        max-width: 100%;
-        padding: 0;
-    }
-    
-    header {
-        width: 100%;
-        background-color: rgb(255, 255, 255);
-        border-bottom: 2px solid #ccc;
-        color: #fff;
-    }
-    
-    div#header-wrapper,
-    div#content-wrapper,
-    div#footer-wrapper {
-        width: 960px;
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 0;
-    }
-    
-    div#header-wrapper h1#logo {
-        background-color: #4AAAA5;
-    }
-    
-    div#header-wrapper h1#logo,
-    div#header-wrapper nav {
-        padding: 20px;
-    }
-    
-    div#header-wrapper h1#logo,
-    div#header-wrapper nav,
-    div#header-wrapper nav ul,
-    div#header-wrapper nav ul li {
-        display: inline-block;
-    }
-    
-    div#header-wrapper nav ul li:nth-child(2n + 0) {
-        color: #ccc;
-    }
-    
-    div#header-wrapper nav {
-        float: right;
-        color: #777;
-    }
-    
-    section.panel {
-        box-sizing: border-box;
-        float: left;
-        min-height: 100px;
-        padding: 0 20px 20px;
-        margin-top: 20px;
-        border: 1px solid #ddd;
-        background-color: rgb(255, 255, 255);
-    }
-    
-    section.panel h1 {
-        border-bottom: 2px solid rgb(200, 200, 200);
-        padding: 20px 0;
-        margin-bottom: 20px;
-    }
-    
-    section.panel h1,
-    section.panel h3 {
-        color: #4AAAA5;
-    }
-    
-    section.panel h3 {
-        border-bottom: 1px solid rgb(200, 200, 200);
-        padding: 10px 0;
-        font-size: 18px;
-    }
-    
-    section.panel.content {
-        width: 650px;
-        display: inline-block;
-        margin-bottom: 100px;
-    }
-    
-    section.panel.content img {
-        width: 250px;
-        max-width: 200px;
-        height: 200px;
-        float: left;
-        display: inline;
-        margin-right: 100px;
-        margin-bottom: 20px;
-        border: 1px solid rgb(200, 200, 200);
-    }
-    
-    section.panel.content div p {
-        margin-bottom: 20px;
-        line-height: 24px;
-        background-color: #CAAAA4;
-        position: relative;
-        margin-top: -50px;
-    }
-    
-    section.panel.connect-with-me {
-        width: 275px;
-        margin-left: 25px;
-    }
-    
-    section.panel.connect-with-me img {
-        width: 67px;
-        max-width: 67px;
-        margin: 15px 15px 0 0;
-        float: left;
-    }
-    
-    section.panel.connect-with-me img:last-of-type {
-        margin-right: 0;
-    }
-    
-    footer {
-        width: 100%;
-        background-color: #666;
-        border-top: 5px solid #4AAAA5;
-        position: fixed;
-        bottom: 0;
-        text-align: center;
-    }
-    
-    footer div#footer-wrapper p {
-        padding: 20px;
-        font-size: 12px;
-        color: #fff;
-    }
-    </style>
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
 </head>
 
 <body>
@@ -168,11 +15,11 @@
                 <h1 id="logo">Corey Simpson</h1>
                 <nav>
                     <ul>
-                        <li><a href="index.html">About</a></li>
+                        <li><a href="./index.html">About</a></li>
                         <li>&nbsp;|&nbsp;</li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="./portfolio.html">Portfolio</a></li>
                         <li>&nbsp;|&nbsp;</li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -180,27 +27,17 @@
         <div id="content-wrapper">
             <section class="panel content">
                 <h1>My Portfolio</h1>
-                <div>
-                    <img src="./assets/images/port1.jpeg">
-                </div>
-                <div>
-                    <img src="./assets/images/port2.jpeg">
-                </div>
-                <div>
-                    <img src="./assets/images/port3.jpeg">
-                </div>
-                <div>
-                    <img src="./assets/images/port4.jpeg">
-                </div>
-                <div>
-                    <img src="./assets/images/port5.jpeg">
-                </div>
+                    <img src="./assets/images/port1.jpeg" class="portfolio-image">
+                    <img src="./assets/images/port2.jpeg" class="portfolio-image">
+                    <img src="./assets/images/port3.jpeg" class="portfolio-image">
+                    <img src="./assets/images/port4.jpeg" class="portfolio-image">
+                    <img src="./assets/images/port5.jpeg" class="portfolio-image">
             </section>
             <section class="panel connect-with-me">
                 <h3>Connect With Me</h3>
                 <a href="https://github.com/leonardsmalls"><img src="./assets/images/github_icon.png" alt="git-hub icon" title="GitHub"></a>
-                <a href="https://www.linkedin.com/feed/"><img src="./assets/images/linkedin_icon.png" alt="linkedin icon" title="LinkedIn"></a>
-                <a href="http://stackoverflow.com"><img src="./assets/images/stackoverflow_icon.png" alt="stack-overflow icon" title="Stack Overflow"></a>
+                <a href="https://www.linkedin.com/in/corey-simpson-474410122/"><img src="./assets/images/linkedin_icon.png" alt="linkedin icon" title="LinkedIn"></a>
+                <a href="https://stackoverflow.com/users/7626482/leonard-smalls"><img src="./assets/images/stackoverflow_icon.png" alt="stack-overflow icon" title="Stack Overflow"></a>
             </section>
         </div>
         <footer>
